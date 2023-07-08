@@ -1,7 +1,11 @@
+import Header from "./components/header/Header.jsx"
+
 function App() {
-	return (
-		<h1 className="app">Typing Western</h1>
-	)
+    return (
+        <div className="container">
+            <Header></Header>
+        </div>
+    )
 }
 
 export default App

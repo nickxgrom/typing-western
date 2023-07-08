@@ -2,8 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+}
+
 body {
+    @apply text-primary bg-main;
+
     margin: 0;
-    background: #22272E;
-    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.header {
+    .logo {
+        @apply flex items-center gap-2 select-none cursor-pointer;
+
+        span {
+            font-size: 1.5rem;
+        }
+    }
+
 }

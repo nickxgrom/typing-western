@@ -1,0 +1,15 @@
+.account {
+    @apply flex items-center text-secondary select-none;
+
+    & .levelChip {
+        @apply bg-secondary text-main p-1 rounded text-xs;
+    }
+
+    &:hover {
+        @apply text-primary;
+
+        & .levelChip {
+            @apply bg-primary
+        }
+    }
+}
