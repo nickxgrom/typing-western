@@ -1,0 +1,7 @@
+.menuButton {
+    @apply p-1 text-secondary hover:text-primary;
+}
+
+.disabled {
+    @apply cursor-not-allowed hover:text-secondary;
+}

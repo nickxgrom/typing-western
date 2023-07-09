@@ -1,0 +1,4 @@
+.icon {
+    @apply box-content w-6 h-6;
+    fill: currentColor;
+}
