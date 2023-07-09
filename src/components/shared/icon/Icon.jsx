@@ -1,11 +1,12 @@
 import PropTypes from "prop-types"
 import classes from "./icon.module.css"
+import classNames from "classnames"
 
 export default function Icon({path, viewbox, className = ""}) {
 
     return (
         <svg
-            className={`${classes.icon} ${className}`}
+            className={classNames(classes.icon, className)}
             viewBox={viewbox  || "0 0 24 24"}
         >
             <path d={path}/>
