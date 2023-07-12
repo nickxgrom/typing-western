@@ -1,5 +1,29 @@
-:root {
+body[data-theme=serikaDark] {
     --text-primary: #D1D0C5;
     --text-secondary: #646669;
     --background-main: #323437;
+}
+
+body[data-theme=arch] {
+    --text-primary: #F6F5F5;
+    --text-secondary: #454864;
+    --background-main: #0C0D11;
+}
+
+body[data-theme=bounquet] {
+    --text-primary: #E9E0D2;
+    --text-secondary: #408E7B;
+    --background-main: #173F35;
+}
+
+body[data-theme=futureFunc] {
+    --text-primary: #F7F2EA;
+    --text-secondary: #C18FFF;
+    --background-main: #2E1A47;
+}
+
+body[data-theme=dollar] {
+    --text-primary: #555A56;
+    --text-secondary: #8A9B69;
+    --background-main: #E4E4D4;
 }
